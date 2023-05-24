@@ -1,0 +1,700 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    box-sizing: border-box;
+    /* background: radial-gradient(#fff, #eaf); */
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+    /* =================Style des liens============================== */
+        a{
+            background-color: rgb(168, 187, 206);
+            border: solid 2px rgb(159, 145, 173);
+            border-radius: 10px ;
+            border-right-color: rgb(171, 38, 93);
+            border-left-color: rgb(188, 35, 83); 
+            padding: 2px 5px; 
+        }
+        .pop a{
+            color: #fff;
+        }
+        ul a:hover{
+            background: #dff0f1;
+            color:#fff;
+        }
+.navbar{
+    display: flex;
+    display: flow-root;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+@media screen and (max-width:920px){
+    .navbar{
+        display: flex;
+        display: flow-root;
+        align-items: center;
+        padding: 20px;
+        margin-right: 4px;
+        position: relative;
+    }
+
+}
+
+    /*============= style de mon logo ==========================*/
+.log img{
+    /* background: #8d8d8d; */
+    width: 70px;
+    height: 50px;
+    padding-top: 0px;
+    margin-bottom: -45px;
+}
+@media screen and (max-width:920px){
+    .log img{
+        /* background: #8d8d8d; */
+        width: 70px;
+        height: 50px;
+        padding-top: 0px;
+        margin-bottom: -45px;
+        margin-left: -200px;
+    }
+}
+.logo{
+    margin-bottom: -20px;
+}
+.logo:hover a{
+    background: #445c5e;
+    transition: ease-out;
+}
+.logo a{
+    border-radius: 20px;
+    border: 100px;
+    padding: 5px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 85px;
+    margin-bottom: -20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 100px;
+    font-size: 30px;
+    background-color: cornflowerblue;
+}
+.logo span{
+    color: #f30505;
+    font-size: 30px;
+    text-transform: uppercase;   
+}
+@media screen and (max-width:920px){
+    .logo a{
+        font-size: 9px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 20px;
+        margin-left: 94px;
+        margin-right: 0px;
+       border-radius: 0%;
+    }
+ 
+    .pop a{
+        border-radius: 2px;
+        padding-left: 1px;
+        margin-left: 8px;
+        margin-right: 0px;
+        font-weight: bold;
+    }
+    .pop{
+        margin-top: 40px; 
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 10px;
+        
+
+    }
+}
+nav{
+  flex: 1; 
+  text-align: right; 
+}
+div ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+@media screen and (max-width:920px){
+    .pop{
+        margin-left: 0px;
+    }
+    nav ul li{
+        margin-right: 0px;
+    }
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:#555 ;
+    margin:20px auto ;
+}
+.container{
+    max-width: 1300px;
+    margin: 10px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+@media screen and (max-width:920px){
+    .container{
+        max-width: 1000px;
+        margin: 10px auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+}
+.row{
+    display:flex ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: radial-gradient(#fff, rgb(209, 186, 216));
+    /* background-image: url(./images/sal001.jpg); */
+    width: 100%;
+}
+.col-2{
+    flex-basis: 45%;
+    min-width: 300px;
+}  
+.col-2 img{
+    width: 100%;
+    padding:20px 0 ;
+    height: 480px;
+}
+.col-2{
+    font-size: 45px;
+    line-height: 60px;
+    margin: 25px;
+}
+.col-2 a{
+    display: inline-block;
+   text-decoration: none;
+   padding: 8px 20px;
+   background-color: rgb(111, 111, 197);
+   color: #fff;
+   border-radius: 30px;
+   margin-top: 25px;
+   transition:  0.5s;
+}
+.col-2 a:hover{
+   background: #445c5e;
+}
+@media screen and (max-width:920px){
+    .col-2 a{
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 20px;
+    }
+    .col-2 p{
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .col-2 h1{
+        font-size: 25px;
+    }
+}
+p{
+    color: #555;
+}
+.header-section{
+   margin-top:-20px ;
+   background: radial-gradient(#fff, #eaf);  
+}
+
+/* =================style de ma section produit================= */
+/* .categoris{
+   margin: 70px 0; 
+} */
+.col-3{
+  flex-basis: 30px;  
+  min-width: 250px;
+  margin:auto ;
+  
+}
+.col-3 img{
+    width: 145%;
+}
+.container h2{
+   text-align: center;
+   font: size 2.8rem;
+   color: #380505;
+   margin: 0px;
+   padding-top: 20px;
+}
+/* ==================section des produits n2 ============================*/
+.col-4{
+   flex-basis: 25%;
+   min-width: 200px;
+   padding-left:15px ;
+   transition: transform 0.4s;
+}
+.col-4 :hover{
+    transform: translateY(-10px);
+}
+.col-4 img{
+  width: 100%;  
+}
+@media screen and (max-width:920px){
+    .col-4{
+        flex-basis: 30%;
+        min-width: 300px;
+        padding-left:15px ;
+        transition: transform 0.4s;
+     }
+     .col-4 :hover{
+         transform: translateY(-10px);
+     }
+     .col-4 img{
+       width: 100%;  
+     }
+
+}
+/* ================style des sections des h2 ==========================*/
+h2{
+    border-bottom: 0px;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 30px;
+    background: rgb(218, 212, 220);
+    background: radial-gradient(#fff, #eaf); 
+    color: blue; 
+    text-transform: uppercase;
+    
+}
+p{
+    text-decoration: none;
+    text-decoration: center;
+    color: red;
+    font-weight: lighter;
+    text-align:center;
+}
+
+/*================= style des sections des h3 ==========================*/
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-weight:bold;
+}
+.rating .fa{
+    color: blue;
+}
+.rating{
+    margin-right: 50px;
+}
+.page2{
+    height: 100px;
+    width: 1263px;
+    background-color: #d5bcbc;
+}
+.page2 .code_2 {
+    text-align: end;
+    margin-top: 10px;
+}
+.page2 .code_2 a{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.page2{
+    position: relative;
+    width: 100%;
+    background-image: url(./images/sal1.jpeg);
+    height: 500px;
+ }
+ .page2{
+    /* text-align: center; */
+    /* padding: 20px; */
+    padding-top: 40px;
+    
+   
+    
+ }
+ .page2 a{
+    text-decoration: none;
+    margin-left: 350px;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(166, 166, 250);
+    color:blue;
+    border-style:hidden;
+    transition:0.5s;
+ }
+ .page2:hover a{
+    background: #445c5e;
+    transition:ease-in-out;
+}
+@media screen and (max-width:920px){
+    .page2 a{
+        margin-left: 100px;
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+ /* ===================style de mon formulaire ================*/
+ div .haut{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e8e8eb;
+    /* display: flex; */
+    flex-wrap: wrap;
+ }
+ @media screen and (max-width:920px){
+    div .haut{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+ }
+ div .haut h3{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+ }
+ div .haut input{
+   justify-content:space-between;
+   margin-left: 60px;
+   margin-right: 5px;
+ }
+
+ /*=================== corps du mormulaire=================== */
+.formulaire{
+    background-color: #ffecd4;
+    font-weight: bold;
+}
+
+div.corps_formulaire{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}  
+
+
+div.corps_formulaire .boite{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+div.corps_formulaire .gauche .boite input{
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 2px solid #8c8fb0;
+    outline-color: blue;
+    background-color:#f8f8f8 ;
+    /* width: 300px; */
+    border-radius: 5px;
+}
+div.corps_formulaire .gauche .boite .Nationalite{
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 2px solid #8c8fb0;
+    outline-color: blue;
+    background-color:#f8f8f8 ;
+    /* width: 300px; */
+    border-radius: 5px;
+}
+
+div.corps_formulaire .droite {
+    margin-left: 30px;
+    
+}
+div.corps_formulaire .droite .boite {
+    height:100% ;
+}
+div.corps_formulaire .droite .boite textarea{
+    margin-top: 5px;
+    margin-bottom: 17px;
+    padding: 10px;
+    background-color:#f8f8f8 ;
+    border: 2px solid  #6a6d8a;
+    outline: none;
+    border-radius: 5px;
+     resize: none;
+   /* width: 700px;
+    height: 850px; */
+}
+div.corps_formulaire .droite .boite .WhatsApp{
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 6px 10px 6px 40px;
+    border: 2px solid #8c8fb0;
+    outline-color: blue;
+    background-color:#f8f8f8 ;
+    /* width: 300px; */
+    border-radius: 5px;
+    color: blue;
+}
+ .whatsApp{ 
+    border: 2px;
+} 
+
+@media screen and (max-width:920px) {
+    div.corps_formulaire .droite {
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:920px) {
+    div.corps_formulaire{
+      margin-left: 0px;
+    }      
+}
+
+form h2{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* ==================pied du mormulaire================== */
+div.pied-formulaire{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e8e8eb;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.pied-formulaire button{
+    margin-top: 10px;
+    background-color:rgb(111, 111, 197);
+    color: white;
+    margin-left: 110px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding:10px 20px ;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+div.pied-formulaire button:hover{
+    transform: scale(1.05);
+}
+/*============== les media queries ===================*/
+@media screen and (max-width:920px) {
+    div.pied-formulaire{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:920px) {
+    div.pied-formulaire button{
+        margin-left: 0px;
+    }
+ }
+@media all and (max-width:860px){
+    .container{
+        width: 500px;
+    }
+}
+@media all and (max-width:550px){
+    .container{
+        width: 100%;
+    }
+}
+@media all and (max-width:360px){
+    .container .navbar{text-align: center;}
+    .navbar {padding: 8px 5px 5px 5px; }
+    .navbar {float: none;}
+    .logo{text-align: center;}
+}
+/* ==========style de mon footer=============== */
+.p_pied{
+    border: 10px;
+    padding: 50px;
+    margin: 5px;
+    background-color: rgb(181, 181, 230);
+    border-radius: 10px;
+    border-style: groove;
+    /* display: flex; */
+} 
+h4{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.adresse p{
+    color: blue;
+}
+@media screen and (max-width:920px){
+    .p_pied{
+        border: 5px;
+        padding: 15px;
+        margin: 5px;
+        background-color: rgb(181, 181, 230);
+        border-radius: 5px;
+        border-style: groove;
+        /* display: flex; */
+    } 
+}
+@media screen and (max-width:920px){
+    h4{
+        font-weight: bold;
+        /* text-align: center; */
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+}
+/* ===============style de ma page  Apropos==================== */
+.navigation{
+    border: 5px;
+    padding: 40px;
+    background-color: #eaf;
+    display: flex;
+    margin-right: 2px;
+
+}
+@media screen and (max-width:920px){
+    .navigation{
+        padding: 20px; 
+    }
+}
+header .navigation .lien a{
+    margin-left: 1px;
+    padding: 7px 30px 7px 30px;
+    color: blue;
+    border-color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 0px;
+}
+@media screen and (max-width:920px){
+    header .navigation .lien a{
+    padding: 8px 10px 5px 10px;
+    color: blue;
+    border-color: blue;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 0px;
+    }
+}
+.lien:hover a{
+    background: #dff0f1;   
+    transition: ease-out;
+    
+}
+
+.navigation .logo a{
+    border-radius: 0px;
+    padding: 27px 300px 20px 300px ;
+    margin-top: 0px;
+    font-size: 30px;
+    margin: 30px;
+}
+
+@media screen and (max-width:920px){
+    .navigation .logo a {
+        border-radius: 0px;
+        padding: 10px 5px 10px 10px ;
+        margin-top: 2px;
+        margin-left: 30px;
+        margin-right: -2px;
+        font-size: 13px;
+        /* margin: 2px; */
+    }
+}
+
+.lo img{
+    width: 80px;
+    height: 80px;
+    padding-top: 0px;
+    margin-top: -25px;
+    margin-left: 10px;
+    margin-bottom: -40px;
+}
+@media screen and (max-width:920px){
+    .lo img{
+        width:60px;
+        height: 40px;
+        padding-top: 0px;
+        margin-top: -12px;
+        margin-left: 20px;
+        margin-bottom: -10px;
+    }
+}
+
+.content h3{
+    text-align: center;
+    font-size: 50px;
+    color:cornflowerblue;
+}
+@media screen and (max-width:920px){
+    .content h3{
+        text-align: center;
+        font-size: 50px;
+        color:cornflowerblue;
+    }
+
+}
+.content{
+    display: block;
+    padding: 10px;
+}
+.content p{
+    color: #555;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:920px){
+    .content p{
+        color: #555;
+        padding: 0px;
+        font-size: 20px;
+    }
+    
+}
+.content p span{
+    font-weight: bold;
+    font-size: 30px;
+}
+@media screen and (max-width:920px){
+    .content p span{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+}
